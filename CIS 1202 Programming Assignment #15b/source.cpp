@@ -13,6 +13,15 @@ int half(int);
 
 int main()
 {
+	double a = 7.0;
+	float b = 5.0f;
+	int c = 3;
+
+	cout << "Expected 3.5, 2.5 and 2" << endl;
+
+	cout << half(a) << endl;
+	cout << half(b) << endl;
+	cout << half(c) << endl;
 }
 
 template <class T>
